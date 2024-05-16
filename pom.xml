@@ -34,5 +34,12 @@
             <artifactId>intellispacesframework-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!-- Intellispaces Ixora -->
+        <dependency>
+            <groupId>intellispaces</groupId>
+            <artifactId>intellispaces-ixora-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

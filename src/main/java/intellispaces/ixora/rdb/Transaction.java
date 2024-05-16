@@ -1,5 +1,6 @@
 package intellispaces.ixora.rdb;
 
+import intellispaces.ixora.data.Cursor;
 import tech.intellispacesframework.core.annotation.AutoGeneration;
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Transition;
@@ -17,12 +18,12 @@ public interface Transaction {
   @Transition("68ea2724-07be-463f-8f61-b9102a91efea")
   Transaction sameTransactionAfterRollback();
 
-  @Transition()
+  @Transition("5dce771b-2908-444b-ba15-6c0b2167fe33")
   Transaction sameTransactionAfterExecute(String sql);
 
-  @Transition()
+  @Transition("580e6c95-881e-47f3-a43e-bce3dd2c628d")
   ResultSet query(String sql);
 
-  @Transition()
+  @Transition("562a0437-6e55-492b-ac35-70ca1ddf57f0")
   <T> Cursor<T> query(Class<T> aClass, String sql);
 }
