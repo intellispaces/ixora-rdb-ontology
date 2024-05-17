@@ -38,7 +38,7 @@
         <!-- Intellispaces Ixora -->
         <dependency>
             <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-ixora-data</artifactId>
+            <artifactId>intellispaces-ixora-structures</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

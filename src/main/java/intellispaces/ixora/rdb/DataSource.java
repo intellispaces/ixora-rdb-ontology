@@ -4,7 +4,7 @@ import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Factory;
 import tech.intellispacesframework.core.annotation.Transition;
 
-@Domain("f8dd8d22-dd1e-445e-a40f-ee8884a4cef5")
+@Domain("8a1c0f79-78f2-4757-8f30-8a0fdeea4b93")
 public interface DataSource {
 
   @Factory

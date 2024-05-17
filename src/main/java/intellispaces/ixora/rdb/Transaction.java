@@ -1,6 +1,6 @@
 package intellispaces.ixora.rdb;
 
-import intellispaces.ixora.data.Cursor;
+import intellispaces.ixora.structures.collection.Cursor;
 import tech.intellispacesframework.core.annotation.AutoGeneration;
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Transition;
