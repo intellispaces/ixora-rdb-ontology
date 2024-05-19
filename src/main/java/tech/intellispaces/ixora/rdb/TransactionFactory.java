@@ -1,6 +1,6 @@
-package intellispaces.ixora.rdb;
+package tech.intellispaces.ixora.rdb;
 
-import intellispaces.ixora.rdb.exception.TransactionException;
+import tech.intellispaces.ixora.rdb.exception.TransactionException;
 import tech.intellispacesframework.core.annotation.Domain;
 import tech.intellispacesframework.core.annotation.Factory;
 import tech.intellispacesframework.core.annotation.Transition;

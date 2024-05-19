@@ -1,4 +1,4 @@
-package intellispaces.ixora.rdb;
+package tech.intellispaces.ixora.rdb;
 
 import tech.intellispacesframework.core.annotation.Data;
 import tech.intellispacesframework.core.annotation.Domain;

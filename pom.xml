@@ -7,7 +7,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>intellispaces-ixora-rdb</artifactId>
+    <artifactId>ixora-rdb-ontology</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -35,10 +35,10 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <!-- Intellispaces Ixora -->
+        <!-- Ixora -->
         <dependency>
             <groupId>intellispaces</groupId>
-            <artifactId>intellispaces-ixora-structures</artifactId>
+            <artifactId>ixora-structures-ontology</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

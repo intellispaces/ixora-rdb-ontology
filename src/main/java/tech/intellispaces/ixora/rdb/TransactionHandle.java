@@ -1,4 +1,4 @@
-package intellispaces.ixora.rdb;
+package tech.intellispaces.ixora.rdb;
 
 import tech.intellispacesframework.commons.action.Getter;
 import tech.intellispacesframework.commons.exception.ExceptionFunctions;
