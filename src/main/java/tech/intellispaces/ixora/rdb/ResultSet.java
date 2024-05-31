@@ -1,8 +1,8 @@
 package tech.intellispaces.ixora.rdb;
 
-import tech.intellispacesframework.core.annotation.AutoGeneration;
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.AutoGeneration;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("80898b0a-6a68-4693-bc86-17d7c5bb6a64")
 @AutoGeneration(enabled = false)

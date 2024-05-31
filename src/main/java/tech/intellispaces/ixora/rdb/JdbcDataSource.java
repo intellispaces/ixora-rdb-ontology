@@ -1,7 +1,7 @@
 package tech.intellispaces.ixora.rdb;
 
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("f8dd8d22-dd1e-445e-a40f-ee8884a4cef5")
 public interface JdbcDataSource extends DataSource {

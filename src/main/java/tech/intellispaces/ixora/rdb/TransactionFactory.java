@@ -1,9 +1,9 @@
 package tech.intellispaces.ixora.rdb;
 
 import tech.intellispaces.ixora.rdb.exception.TransactionException;
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Factory;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Factory;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("1931adca-ed62-4b0f-af4f-6d7dee9b7822")
 public interface TransactionFactory {

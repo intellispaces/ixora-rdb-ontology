@@ -1,9 +1,9 @@
 package tech.intellispaces.ixora.rdb;
 
 import tech.intellispaces.ixora.structures.collection.Cursor;
-import tech.intellispacesframework.core.annotation.AutoGeneration;
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.AutoGeneration;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("8f174862-2fab-48cb-af12-b8e264f19257")
 @AutoGeneration(enabled = false)

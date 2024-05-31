@@ -1,6 +1,6 @@
 package tech.intellispaces.ixora.rdb.exception;
 
-import tech.intellispacesframework.core.exception.TraverseException;
+import tech.intellispaces.framework.core.exception.TraverseException;
 
 public class TransactionException extends TraverseException {
 

@@ -1,7 +1,7 @@
 package tech.intellispaces.ixora.rdb;
 
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("ce213223-d283-42e5-b6bf-23ba0af5d4bc")
 public interface ConnectionPool extends DataSource {

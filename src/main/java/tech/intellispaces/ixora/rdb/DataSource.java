@@ -1,8 +1,8 @@
 package tech.intellispaces.ixora.rdb;
 
-import tech.intellispacesframework.core.annotation.Domain;
-import tech.intellispacesframework.core.annotation.Factory;
-import tech.intellispacesframework.core.annotation.Transition;
+import tech.intellispaces.framework.core.annotation.Domain;
+import tech.intellispaces.framework.core.annotation.Factory;
+import tech.intellispaces.framework.core.annotation.Transition;
 
 @Domain("8a1c0f79-78f2-4757-8f30-8a0fdeea4b93")
 public interface DataSource {
