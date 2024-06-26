@@ -18,5 +18,5 @@ public interface JdbcDataSourceProperties {
   String username();
 
   @Transition("b254be32-7b81-4092-b821-4803c3af770d")
-  byte[] password();
+  String password();
 }
