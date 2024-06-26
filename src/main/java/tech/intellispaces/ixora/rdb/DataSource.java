@@ -7,6 +7,6 @@ import tech.intellispaces.framework.core.traverse.TraverseTypes;
 @Domain("8a1c0f79-78f2-4757-8f30-8a0fdeea4b93")
 public interface DataSource {
 
-  @Transition(value = "7465cd7c-94bd-4aac-b220-1520907c4e9b", allowedTraverse = TraverseTypes.MovingAndBacklash)
+  @Transition(value = "7465cd7c-94bd-4aac-b220-1520907c4e9b", type = TraverseTypes.MovingAndBacklash)
   Connection getConnection();
 }

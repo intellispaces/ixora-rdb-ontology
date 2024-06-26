@@ -10,7 +10,7 @@ public interface ConnectionPool {
   @Transition("1b07e8c0-98de-43cc-8cf2-1af72dde0966")
   DataSource dataSource();
 
-  @Transition(value = "ee0c2efb-719f-4bed-9c05-5ad32b37292d", allowedTraverse = TraverseTypes.MovingAndBacklash)
+  @Transition(value = "ee0c2efb-719f-4bed-9c05-5ad32b37292d", type = TraverseTypes.MovingAndBacklash)
   Connection getConnection();
 
   @Transition("194fa1ce-bad0-4d45-adab-df940ed70c74")

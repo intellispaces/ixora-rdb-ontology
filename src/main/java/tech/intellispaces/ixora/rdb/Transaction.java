@@ -11,18 +11,21 @@ public interface Transaction {
   @Transition("038c69e9-7231-49e1-9a71-156018ea026b")
   Connection connection();
 
-  @Transition(value = "8f3720d1-f451-41c0-bac6-d9d1c4c11448", allowedTraverse = TraverseTypes.Moving)
+  @Transition(value = "8f3720d1-f451-41c0-bac6-d9d1c4c11448", type = TraverseTypes.Moving)
   Transaction commit();
 
-  @Transition(value = "68ea2724-07be-463f-8f61-b9102a91efea", allowedTraverse = TraverseTypes.Moving)
+  @Transition(value = "68ea2724-07be-463f-8f61-b9102a91efea", type = TraverseTypes.Moving)
   Transaction rollback();
 
-  @Transition(value = "5dce771b-2908-444b-ba15-6c0b2167fe33", allowedTraverse = TraverseTypes.Moving)
+  @Transition(value = "5dce771b-2908-444b-ba15-6c0b2167fe33", type = TraverseTypes.Moving)
   Transaction update(String sql);
 
-  @Transition("580e6c95-881e-47f3-a43e-bce3dd2c628d")
+  @Transition(value = "580e6c95-881e-47f3-a43e-bce3dd2c628d")
   ResultSet query(String sql);
 
-  @Transition("562a0437-6e55-492b-ac35-70ca1ddf57f0")
-  <T> Cursor<T> query(Class<T> domain, String sql);
+  @Transition(value = "562a0437-6e55-492b-ac35-70ca1ddf57f0")
+  <T> Cursor<T> query(Class<T> type, String sql);
+
+  @Transition("7490e2fd-b136-4afa-9fea-d1db7acc1864")
+  <T> T fetch(Class<T> type, String sql);
 }
