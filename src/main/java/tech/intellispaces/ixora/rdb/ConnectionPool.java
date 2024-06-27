@@ -13,6 +13,6 @@ public interface ConnectionPool {
   @Transition(value = "ee0c2efb-719f-4bed-9c05-5ad32b37292d", type = TraverseTypes.MovingAndBacklash)
   Connection getConnection();
 
-  @Transition("194fa1ce-bad0-4d45-adab-df940ed70c74")
+  @Transition(value = "194fa1ce-bad0-4d45-adab-df940ed70c74", type = TraverseTypes.Moving)
   ConnectionPool releaseConnection(Connection connection);
 }
