@@ -14,11 +14,11 @@ public interface ResultSet {
   boolean hasNext();
 
   @Transition("77aeebe4-6c9f-4067-a1be-fe7633558a13")
-  Integer integerValue(String name);
+`  Integer integerColumnValueByName(String name);
 
   @Transition("0fb39956-45e1-4b78-afdf-aa0b4922ed86")
-  String stringValue(String name);
+  String stringColumnValueByName(String name);
 
   @Transition("d280d0b1-16d9-4d3a-a172-a0ad39c63de7")
-  <T> T value(Class<T> domain);
+  <T> T columnValue(Class<T> domain);
 }
