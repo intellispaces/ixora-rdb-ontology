@@ -14,7 +14,7 @@ public interface ResultSet {
   boolean hasNext();
 
   @Transition("77aeebe4-6c9f-4067-a1be-fe7633558a13")
-`  Integer integerColumnValueByName(String name);
+  Integer integerColumnValueByName(String name);
 
   @Transition("0fb39956-45e1-4b78-afdf-aa0b4922ed86")
   String stringColumnValueByName(String name);
