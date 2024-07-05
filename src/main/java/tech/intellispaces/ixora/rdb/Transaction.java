@@ -20,12 +20,12 @@ public interface Transaction {
   @Transition(value = "5dce771b-2908-444b-ba15-6c0b2167fe33", type = TraverseTypes.Moving)
   Transaction update(String sql);
 
-  @Transition(value = "580e6c95-881e-47f3-a43e-bce3dd2c628d")
+  @Transition(value = "580e6c95-881e-47f3-a43e-bce3dd2c628d", name = "TransactionQueryTransition")
   ResultSet query(String sql);
 
-  @Transition(value = "562a0437-6e55-492b-ac35-70ca1ddf57f0")
-  <T> Cursor<T> query(Class<T> type, String sql);
+  @Transition(value = "562a0437-6e55-492b-ac35-70ca1ddf57f0", name = "TransactionQueryDataTransition")
+  <T> Cursor<T> queryData(Class<T> dataType, String sql);
 
-  @Transition("7490e2fd-b136-4afa-9fea-d1db7acc1864")
-  <T> T fetch(Class<T> type, String sql);
+  @Transition(value = "7490e2fd-b136-4afa-9fea-d1db7acc1864", name = "TransactionFetchDataTransition")
+  <T> T fetchData(Class<T> type, String sql);
 }
