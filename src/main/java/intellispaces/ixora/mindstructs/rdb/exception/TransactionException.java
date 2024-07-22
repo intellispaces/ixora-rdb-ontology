@@ -1,4 +1,4 @@
-package intellispaces.ixora.rdb.exception;
+package intellispaces.ixora.mindstructs.rdb.exception;
 
 import tech.intellispaces.framework.core.exception.TraverseException;
 
