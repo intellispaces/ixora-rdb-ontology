@@ -11,13 +11,13 @@ public interface Transaction {
   @Transition("038c69e9-7231-49e1-9a71-156018ea026b")
   Connection connection();
 
-  @Transition(value = "8f3720d1-f451-41c0-bac6-d9d1c4c11448", type = TraverseTypes.Moving)
+  @Transition(value = "8f3720d1-f451-41c0-bac6-d9d1c4c11448", allowedTraverseTypes = TraverseTypes.Moving)
   Transaction commit();
 
-  @Transition(value = "68ea2724-07be-463f-8f61-b9102a91efea", type = TraverseTypes.Moving)
+  @Transition(value = "68ea2724-07be-463f-8f61-b9102a91efea", allowedTraverseTypes = TraverseTypes.Moving)
   Transaction rollback();
 
-  @Transition(value = "5dce771b-2908-444b-ba15-6c0b2167fe33", type = TraverseTypes.Moving)
+  @Transition(value = "5dce771b-2908-444b-ba15-6c0b2167fe33", allowedTraverseTypes = TraverseTypes.Moving)
   Transaction update(String sql);
 
   @Transition(value = "580e6c95-881e-47f3-a43e-bce3dd2c628d", name = "TransactionQueryTransition")

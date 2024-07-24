@@ -7,7 +7,7 @@ import tech.intellispaces.framework.core.traverse.TraverseTypes;
 @Domain("80898b0a-6a68-4693-bc86-17d7c5bb6a64")
 public interface ResultSet {
 
-  @Transition(value = "a0b049ef-9ff2-4611-95b4-b500673afa55", type = TraverseTypes.Moving)
+  @Transition(value = "a0b049ef-9ff2-4611-95b4-b500673afa55", allowedTraverseTypes = TraverseTypes.Moving)
   ResultSet next();
 
   @Transition("4630f73e-df55-4535-9cb4-93978773cf3d")
