@@ -1,8 +1,8 @@
-package intellispaces.ixora.mindstructs.rdb;
+package intellispaces.ixora.rdb;
 
-import tech.intellispaces.framework.core.annotation.Domain;
-import tech.intellispaces.framework.core.annotation.Transition;
-import tech.intellispaces.framework.core.traverse.TraverseTypes;
+import tech.intellispaces.core.annotation.Domain;
+import tech.intellispaces.core.annotation.Transition;
+import tech.intellispaces.core.traverse.TraverseTypes;
 
 @Domain("80898b0a-6a68-4693-bc86-17d7c5bb6a64")
 public interface ResultSet {

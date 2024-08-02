@@ -1,8 +1,8 @@
-package intellispaces.ixora.mindstructs.rdb;
+package intellispaces.ixora.rdb;
 
-import tech.intellispaces.framework.core.annotation.Data;
-import tech.intellispaces.framework.core.annotation.Domain;
-import tech.intellispaces.framework.core.annotation.Transition;
+import tech.intellispaces.core.annotation.Data;
+import tech.intellispaces.core.annotation.Domain;
+import tech.intellispaces.core.annotation.Transition;
 
 @Data
 @Domain("a0d2d709-9af1-4bcc-8a90-c3c828585198")
