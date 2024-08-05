@@ -8,17 +8,14 @@ import tech.intellispaces.core.traverse.TraverseTypes;
 public interface ResultSet {
 
   @Transition(value = "a0b049ef-9ff2-4611-95b4-b500673afa55", allowedTraverseTypes = TraverseTypes.Moving)
-  ResultSet next();
+  boolean next();
 
-  @Transition("4630f73e-df55-4535-9cb4-93978773cf3d")
-  boolean hasNext();
+  @Transition(value = "77aeebe4-6c9f-4067-a1be-fe7633558a13", name = "ResultSetToIntegerValueByNameTransition")
+  Integer integerValue(String name);
 
-  @Transition("77aeebe4-6c9f-4067-a1be-fe7633558a13")
-  Integer integerColumnValueByName(String name);
-
-  @Transition("0fb39956-45e1-4b78-afdf-aa0b4922ed86")
-  String stringColumnValueByName(String name);
+  @Transition(value = "0fb39956-45e1-4b78-afdf-aa0b4922ed86", name = "ResultSetToStringValueByNameTransition")
+  String stringValue(String name);
 
   @Transition("d280d0b1-16d9-4d3a-a172-a0ad39c63de7")
-  <T> T columnValue(Class<T> domain);
+  <T> T rowValue(Class<T> valueDomain);
 }
